@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerCode", "src\PowerCode\PowerCode.csproj", "{71877AC4-0F7C-457D-B47E-0D14485C643F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerCode.Tests", "test\PowerCode.Tests\PowerCode.Tests.csproj", "{7503D6F6-5881-4C7F-9AFD-AB15111CF01D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeOutputTestExe", "test\NativeOutputTestExe\NativeOutputTestExe.csproj", "{0FA5B62C-9474-4D3D-AA31-D09903C8D67E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71877AC4-0F7C-457D-B47E-0D14485C643F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71877AC4-0F7C-457D-B47E-0D14485C643F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71877AC4-0F7C-457D-B47E-0D14485C643F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71877AC4-0F7C-457D-B47E-0D14485C643F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7503D6F6-5881-4C7F-9AFD-AB15111CF01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7503D6F6-5881-4C7F-9AFD-AB15111CF01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7503D6F6-5881-4C7F-9AFD-AB15111CF01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7503D6F6-5881-4C7F-9AFD-AB15111CF01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA5B62C-9474-4D3D-AA31-D09903C8D67E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA5B62C-9474-4D3D-AA31-D09903C8D67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA5B62C-9474-4D3D-AA31-D09903C8D67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA5B62C-9474-4D3D-AA31-D09903C8D67E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
