@@ -7,8 +7,8 @@
     <ProjectGuid>{71877AC4-0F7C-457D-B47E-0D14485C643F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StartProcessDualOutput</RootNamespace>
-    <AssemblyName>StartProcessDualOutput</AssemblyName>
+    <RootNamespace>PowerCode</RootNamespace>
+    <AssemblyName>PowerCode</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,10 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CmdletProgressWriter.cs" />
+    <Compile Include="IProgressWriter.cs" />
+    <Compile Include="PowerCodeExtensions.cs" />
+    <Compile Include="ProgressWriter.cs" />
+    <Compile Include="IncludeExcludeProcessing.cs" />
     <Compile Include="OutputKind.cs" />
+    <Compile Include="PathResolver.cs" />
+    <Compile Include="PathResult.cs" />
     <Compile Include="ProcessOutput.cs" />
     <Compile Include="ProcessRunner.cs" />
     <Compile Include="ProcessStartOptions.cs" />
+    <Compile Include="Progress.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StartProcessExCommand.cs" />
   </ItemGroup>

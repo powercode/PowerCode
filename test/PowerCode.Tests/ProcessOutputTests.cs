@@ -2,13 +2,11 @@
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Threading;
 using Xunit;
 
 namespace PowerCode.Tests
 {
     public class ProcessOutputTests
-
     {
         [Fact]
         public void TestMethod1() {

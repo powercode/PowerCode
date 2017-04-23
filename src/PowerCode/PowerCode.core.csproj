@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>PowerCode.Core</AssemblyName>        
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.PowerShell.SDK" Version="6.0.0-alpha17" />         
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Properties/*" />
+  </ItemGroup>
+
+</Project>

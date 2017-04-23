@@ -2,7 +2,7 @@
 using System.Diagnostics;
 
 namespace PowerCode {
-    [DebuggerDisplay( "{DebuggerDisplay},nq")]
+    [DebuggerDisplay("{DebuggerDisplay},nq")]
     public struct ProcessOutput {
         public OutputKind Kind { get; }
         private readonly string _stringValue;
@@ -38,12 +38,10 @@ namespace PowerCode {
 
         public string Error => Kind == OutputKind.Error ? _stringValue : throw new InvalidOperationException("Kind is not 'Error'");
 
-        public override string ToString()
-        {
-            switch (Kind)
-            {
+        public override string ToString() {
+            switch (Kind) {
                 case OutputKind.None:
-                    return String.Empty;
+                    return string.Empty;
                 case OutputKind.Output:
 
                 case OutputKind.Error:
@@ -60,11 +58,11 @@ namespace PowerCode {
                 switch (Kind) {
                     case OutputKind.None: return "None";
                     case OutputKind.Output: return $"O: {_stringValue}";
-                    case OutputKind.Error:  return $"E: {_stringValue}";
+                    case OutputKind.Error: return $"E: {_stringValue}";
 
                     case OutputKind.ExitCode: return $"Exit: {_intValue}";
                     default:
-                        return String.Empty;
+                        return string.Empty;
                 }
             }
         }
