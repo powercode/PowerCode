@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -45,7 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CmdletProgressWriter.cs" />
+    <Compile Include="CompletionExtensions.cs" />
     <Compile Include="IProgressWriter.cs" />
+    <Compile Include="JoinItemCommand.cs" />
+    <Compile Include="ObjectExtensions.cs" />
     <Compile Include="PowerCodeExtensions.cs" />
     <Compile Include="ProgressWriter.cs" />
     <Compile Include="IncludeExcludeProcessing.cs" />
@@ -57,6 +61,7 @@
     <Compile Include="ProcessStartOptions.cs" />
     <Compile Include="Progress.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SafeFindHandle.cs" />
     <Compile Include="StartProcessExCommand.cs" />
   </ItemGroup>
   <ItemGroup>
